@@ -21,3 +21,17 @@ if (php_sapi_name() === 'cli') {
     main();
 }
 ?>
+
+
+//--------------------------------------------------------------------------------------------
+
+// Mars Weight Solution
+// There are three key stages to solving this problem:
+
+// 1. Getting the Earthling's weight from them, which I need the input function for. 
+
+// 2. Converting the Earthing's weight from a string to a number so I can do math with it. 
+// I use the float function to do this, since the weight isn't necessarily a whole number
+
+// 3. Calculating the weight on Mars, which I do by multiplying the Earth weight by 0.378. 
+// To make the program easy to read, I store this number in a constant called MARS_MULTIPLE.
